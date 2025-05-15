@@ -72,6 +72,3 @@ app.include_router(
 )
 app.include_router(router=search_router, prefix="/api/v1/search", tags=["Search"])
 
-# Run the app
-if __name__ == "__main__":
-    uvicorn.run("server:app", host="localhost", port=PORT, reload=True)
