@@ -35,7 +35,7 @@ frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
 
 # Run the scheduler in a background thread
 def run_scheduler():
-    schedule.every(10).seconds.do(scrape_news)
+    schedule.every(30).minutes.do(scrape_news)
     while True:
         schedule.run_pending()
         time.sleep(1)

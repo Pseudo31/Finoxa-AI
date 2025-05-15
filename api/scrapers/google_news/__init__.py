@@ -67,7 +67,7 @@ class GoogleNews:
         articles = []
         count = 0
 
-        for article_element in article_elements[:5]:
+        for article_element in article_elements:
             if count >= len(article_elements):
                 break
 
