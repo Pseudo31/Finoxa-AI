@@ -1,0 +1,777 @@
+[2025-05-12 20:44:07,193] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:44:26,507] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:44:26,739] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:44:31,948] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:44:31,948] - [INFO] - ==================================================
+[2025-05-12 20:44:31,949] - [INFO] - Starting Google News Scraper
+[2025-05-12 20:44:31,949] - [INFO] - ==================================================
+[2025-05-12 20:44:31,950] - [INFO] - Running example search for topic: 'business'
+[2025-05-12 20:44:33,733] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-12 20:44:36,982] - [INFO] - Found 99 article elements
+[2025-05-12 20:44:36,982] - [INFO] - Processing article 1/99
+[2025-05-12 20:45:00,970] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:45:01,197] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:45:06,398] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:45:06,398] - [INFO] - ==================================================
+[2025-05-12 20:45:06,398] - [INFO] - Starting Google News Scraper
+[2025-05-12 20:45:06,400] - [INFO] - ==================================================
+[2025-05-12 20:45:06,400] - [INFO] - Running example search for topic: 'business'
+[2025-05-12 20:45:07,822] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-12 20:45:10,125] - [INFO] - Found 102 article elements
+[2025-05-12 20:45:10,126] - [INFO] - Processing article 1/102
+[2025-05-12 20:46:49,120] - [INFO] - Extracted metadata for article: Stock market today: Dow gains 900 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 20:46:49,122] - [INFO] - Fetching content from: https://finance.yahoo.com/news/live/stock-market-today-dow-gains-1000-points-while-sp-500-nasdaq-surge-as-us-china-deal-spurs-a-rush-into-stocks-133030475.html
+[2025-05-12 20:46:51,386] - [INFO] - Successfully added article: Stock market today: Dow gains 900 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 20:46:51,386] - [INFO] - Processing article 2/102
+[2025-05-12 20:47:39,606] - [INFO] - Extracted metadata for article: See photos of New York Stock Exchange after US-China tariff pause announced
+[2025-05-12 20:47:39,606] - [INFO] - Fetching content from: https://www.usatoday.com/picture-gallery/money/markets/2025/05/12/wall-street-trading-us-china-tariff-pause-photos/83581759007/
+[2025-05-12 20:47:40,384] - [INFO] - Successfully added article: See photos of New York Stock Exchange after US-China tariff pause announced
+[2025-05-12 20:47:40,384] - [INFO] - Processing article 3/102
+[2025-05-12 20:49:04,266] - [INFO] - Extracted metadata for article: Trump China tariff truce ignites stock markets – will it also pump up president's poll numbers?
+[2025-05-12 20:49:04,266] - [INFO] - Fetching content from: https://www.foxnews.com/politics/trump-china-tariff-truce-ignites-stock-markets-also-pump-up-presidents-poll-numbers
+[2025-05-12 20:49:04,594] - [WARNING] - Failed to scrape article content: Trump China tariff truce ignites stock markets – will it also pump up president's poll numbers?
+[2025-05-12 20:49:04,595] - [INFO] - Processing article 4/102
+[2025-05-12 20:49:47,253] - [INFO] - Extracted metadata for article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 20:49:47,253] - [INFO] - Fetching content from: https://www.nytimes.com/2025/05/10/business/elizabeth-holmes-partner-blood-testing-startup.html
+[2025-05-12 20:49:48,300] - [INFO] - Successfully added article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 20:49:48,301] - [INFO] - Processing article 5/102
+[2025-05-12 20:50:30,094] - [INFO] - Extracted metadata for article: Elizabeth Holmes' partner raises millions for new biotech testing startup
+[2025-05-12 20:50:30,094] - [INFO] - Fetching content from: https://www.npr.org/2025/05/10/nx-s1-5393950/elizabeth-holmes-theranos-billy-evans-blood-testing
+[2025-05-12 20:50:30,549] - [INFO] - Successfully added article: Elizabeth Holmes' partner raises millions for new biotech testing startup
+[2025-05-12 20:50:30,549] - [INFO] - Processing article 6/102
+[2025-05-12 20:51:11,500] - [INFO] - Extracted metadata for article: 'This is not Theranos 2.0': Elizabeth Holmes' partner is the CEO behind new blood-testing startup
+[2025-05-12 20:51:11,500] - [INFO] - Fetching content from: https://fortune.com/2025/05/12/theranos-elizabeth-holmes-billy-evans-haemanthus-blood-testing-startup/
+[2025-05-12 20:51:12,200] - [INFO] - Successfully added article: 'This is not Theranos 2.0': Elizabeth Holmes' partner is the CEO behind new blood-testing startup
+[2025-05-12 20:51:12,200] - [INFO] - Processing article 7/102
+[2025-05-12 20:52:03,253] - [INFO] - Extracted metadata for article: Stocks to Watch Monday: Nvidia, AMD, Broadcom, Shopify
+[2025-05-12 20:52:03,253] - [INFO] - Fetching content from: https://www.wsj.com/livecoverage/stock-market-today-tariffs-trade-war-05-12-2025/card/stocks-to-watch-amazon-tesla-apple-maersk-xfAdu7tsd9dyczoGPfUC
+[2025-05-12 20:52:03,749] - [WARNING] - Failed to scrape article content: Stocks to Watch Monday: Nvidia, AMD, Broadcom, Shopify
+[2025-05-12 20:52:03,749] - [INFO] - Processing article 8/102
+[2025-05-12 20:52:45,620] - [INFO] - Extracted metadata for article: Why Is Apple (AAPL) Stock Soaring Today
+[2025-05-12 20:52:45,620] - [INFO] - Fetching content from: https://finance.yahoo.com/news/why-apple-aapl-stock-soaring-171155969.html
+[2025-05-12 20:52:47,084] - [INFO] - Successfully added article: Why Is Apple (AAPL) Stock Soaring Today
+[2025-05-12 20:52:47,085] - [INFO] - Processing article 9/102
+[2025-05-12 20:53:28,190] - [INFO] - Extracted metadata for article: U.S.-China breakthrough sends tech and chip stocks soaring
+[2025-05-12 20:53:28,190] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/12/global-chip-and-tech-stocks-rally-as-us-and-china-agree-tariff-cut.html
+[2025-05-12 20:53:28,882] - [INFO] - Successfully added article: U.S.-China breakthrough sends tech and chip stocks soaring
+[2025-05-12 20:53:28,882] - [INFO] - Processing article 10/102
+[2025-05-12 20:54:11,279] - [INFO] - Extracted metadata for article: Fox streaming service to be called Fox One, launch before NFL season
+[2025-05-12 20:54:11,279] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/12/fox-one-streaming-service-launch.html
+[2025-05-12 20:54:12,001] - [INFO] - Successfully added article: Fox streaming service to be called Fox One, launch before NFL season
+[2025-05-12 20:54:14,547] - [INFO] - Scrape completed in 548.15 seconds
+[2025-05-12 20:54:14,548] - [INFO] - Found 8 articles about 'business':
+[2025-05-12 20:54:47,644] - [INFO] - Saved Stock market today: Dow gains 900 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks news article
+[2025-05-12 20:54:49,890] - [INFO] - Saved See photos of New York Stock Exchange after US-China tariff pause announced news article
+[2025-05-12 20:54:51,416] - [INFO] - Saved Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up news article
+[2025-05-12 20:54:53,663] - [INFO] - Saved Elizabeth Holmes' partner raises millions for new biotech testing startup news article
+[2025-05-12 20:54:55,456] - [INFO] - Saved 'This is not Theranos 2.0': Elizabeth Holmes' partner is the CEO behind new blood-testing startup news article
+[2025-05-12 20:54:58,167] - [INFO] - Saved Why Is Apple (AAPL) Stock Soaring Today news article
+[2025-05-12 20:55:00,737] - [INFO] - Saved U.S.-China breakthrough sends tech and chip stocks soaring news article
+[2025-05-12 20:55:02,164] - [INFO] - Saved Fox streaming service to be called Fox One, launch before NFL season news article
+[2025-05-12 20:55:02,165] - [INFO] - ==================================================
+[2025-05-12 20:55:02,165] - [INFO] - Google News Scraper Finished
+[2025-05-12 20:55:02,166] - [INFO] - ==================================================
+[2025-05-12 20:55:07,448] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 20:55:07,449] - [INFO] - ==================================================
+[2025-05-12 20:55:07,449] - [INFO] - Starting Google News Scraper
+[2025-05-12 20:55:07,450] - [INFO] - ==================================================
+[2025-05-12 20:55:07,450] - [INFO] - Running example search for topic: 'business'
+[2025-05-12 20:55:09,470] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-12 20:55:12,078] - [INFO] - Found 96 article elements
+[2025-05-12 20:55:12,078] - [INFO] - Processing article 1/96
+[2025-05-12 20:55:23,843] - [INFO] - Extracted metadata for article: Stock market today: Dow gains 900 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 20:55:23,844] - [INFO] - Fetching content from: https://www.google.com/sorry/index?continue=https://news.google.com/read/CBMi7wFBVV95cUxNRXlaWC1WdlZQb2hONzFBUUZoamk5UDVRX016TlhoMGVzeXBBSHlpdDIyaGpPU09penBNMGNSQWtsdl9RNzBnc29QRXRSTzdZRmxoS1hoRTZVSnlpZzVWOWczU2FwczNwSjk2NlhSaXc1MUszOWNqWW9qakhhRHBzVlVxbGExbzVUNjlKLTc0SHc1Y1ltM2VLVGpTcFBiSnJnLWRQUGl2TmlMVEswTHJrMU9xeXRlOHRLX0tZb1huZnU4cWpMUGUtWGFyejk3NjhFZnpSX2dULWJTMUdCc216ZWpTM3NiN2VkQVduTjdZYw%3Fhl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen&hl=en-US&q=EhAqAZcARt68AI3dw7NeLu7sGIXsiMEGIjAAqnIdAWvsnrvtvpa1XfEN8dwUJNgVUpEhWwZV3z4fw3geuhvhGfKEQ-uXBKxLqV4yAnJSWgFD
+[2025-05-12 20:55:24,092] - [WARNING] - Failed to scrape article content: Stock market today: Dow gains 900 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 20:55:24,093] - [INFO] - Processing article 2/96
+[2025-05-12 20:55:44,517] - [INFO] - Extracted metadata for article: See photos of New York Stock Exchange after US-China tariff pause announced
+[2025-05-12 20:55:44,517] - [INFO] - Fetching content from: https://www.usatoday.com/picture-gallery/money/markets/2025/05/12/wall-street-trading-us-china-tariff-pause-photos/83581759007/
+[2025-05-12 20:55:44,877] - [INFO] - Successfully added article: See photos of New York Stock Exchange after US-China tariff pause announced
+[2025-05-12 20:55:44,877] - [INFO] - Processing article 3/96
+[2025-05-12 20:56:15,614] - [INFO] - Extracted metadata for article: Fact Sheet: President Donald J. Trump Secures a Historic Trade Win for the United States
+[2025-05-12 20:56:15,614] - [INFO] - Fetching content from: https://www.whitehouse.gov/fact-sheets/2025/05/fact-sheet-president-donald-j-trump-secures-a-historic-trade-win-for-the-united-states/
+[2025-05-12 20:56:16,302] - [INFO] - Successfully added article: Fact Sheet: President Donald J. Trump Secures a Historic Trade Win for the United States
+[2025-05-12 20:56:16,303] - [INFO] - Processing article 4/96
+[2025-05-12 20:57:10,910] - [INFO] - Extracted metadata for article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 20:57:10,910] - [INFO] - Fetching content from: https://www.nytimes.com/2025/05/10/business/elizabeth-holmes-partner-blood-testing-startup.html
+[2025-05-12 20:57:11,499] - [INFO] - Successfully added article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 20:57:11,500] - [INFO] - Processing article 5/96
+[2025-05-12 20:57:22,920] - [INFO] - Extracted metadata for article: Elizabeth Holmes' partner raises millions for new biotech testing startup
+[2025-05-12 20:57:22,921] - [INFO] - Fetching content from: https://www.npr.org/2025/05/10/nx-s1-5393950/elizabeth-holmes-theranos-billy-evans-blood-testing
+[2025-05-12 20:57:24,142] - [INFO] - Successfully added article: Elizabeth Holmes' partner raises millions for new biotech testing startup
+[2025-05-12 20:57:24,143] - [INFO] - Processing article 6/96
+[2025-05-12 20:58:17,050] - [INFO] - Extracted metadata for article: 'This is not Theranos 2.0': Elizabeth Holmes' partner is the CEO behind new blood-testing startup
+[2025-05-12 20:58:17,051] - [INFO] - Fetching content from: https://fortune.com/2025/05/12/theranos-elizabeth-holmes-billy-evans-haemanthus-blood-testing-startup/
+[2025-05-12 20:58:17,435] - [INFO] - Successfully added article: 'This is not Theranos 2.0': Elizabeth Holmes' partner is the CEO behind new blood-testing startup
+[2025-05-12 20:58:17,435] - [INFO] - Processing article 7/96
+[2025-05-12 20:58:48,325] - [INFO] - Extracted metadata for article: Stocks to Watch Monday: Nvidia, AMD, Broadcom, Shopify
+[2025-05-12 20:58:48,325] - [INFO] - Fetching content from: https://www.wsj.com/livecoverage/stock-market-today-tariffs-trade-war-05-12-2025/card/stocks-to-watch-amazon-tesla-apple-maersk-xfAdu7tsd9dyczoGPfUC
+[2025-05-12 20:58:48,825] - [WARNING] - Failed to scrape article content: Stocks to Watch Monday: Nvidia, AMD, Broadcom, Shopify
+[2025-05-12 20:58:48,825] - [INFO] - Processing article 8/96
+[2025-05-12 20:59:53,264] - [INFO] - Extracted metadata for article: Why Is Apple (AAPL) Stock Soaring Today
+[2025-05-12 20:59:53,264] - [INFO] - Fetching content from: https://finance.yahoo.com/news/why-apple-aapl-stock-soaring-171155969.html
+[2025-05-12 20:59:54,663] - [INFO] - Successfully added article: Why Is Apple (AAPL) Stock Soaring Today
+[2025-05-12 20:59:54,663] - [INFO] - Processing article 9/96
+[2025-05-12 21:00:05,896] - [INFO] - Extracted metadata for article: U.S.-China breakthrough sends tech and chip stocks soaring
+[2025-05-12 21:00:05,897] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/12/global-chip-and-tech-stocks-rally-as-us-and-china-agree-tariff-cut.html
+[2025-05-12 21:00:06,749] - [INFO] - Successfully added article: U.S.-China breakthrough sends tech and chip stocks soaring
+[2025-05-12 21:00:06,750] - [INFO] - Processing article 10/96
+[2025-05-12 21:00:19,314] - [INFO] - Extracted metadata for article: Fox streaming service to be called Fox One, launch before NFL season
+[2025-05-12 21:00:19,315] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/12/fox-one-streaming-service-launch.html
+[2025-05-12 21:00:20,051] - [INFO] - Successfully added article: Fox streaming service to be called Fox One, launch before NFL season
+[2025-05-12 21:00:22,797] - [INFO] - Scrape completed in 315.35 seconds
+[2025-05-12 21:00:22,798] - [INFO] - Found 8 articles about 'business':
+[2025-05-12 21:00:26,114] - [INFO] - Saved Fact Sheet: President Donald J. Trump Secures a Historic Trade Win for the United States news article
+[2025-05-12 21:00:26,419] - [INFO] - ==================================================
+[2025-05-12 21:00:26,420] - [INFO] - Google News Scraper Finished
+[2025-05-12 21:00:26,420] - [INFO] - ==================================================
+[2025-05-12 21:00:31,627] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 21:00:31,627] - [INFO] - ==================================================
+[2025-05-12 21:00:31,628] - [INFO] - Starting Google News Scraper
+[2025-05-12 21:00:31,628] - [INFO] - ==================================================
+[2025-05-12 21:00:31,629] - [INFO] - Running example search for topic: 'business'
+[2025-05-12 21:00:33,262] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-12 21:00:36,920] - [INFO] - Found 96 article elements
+[2025-05-12 21:00:36,921] - [INFO] - Processing article 1/96
+[2025-05-12 21:01:19,049] - [INFO] - Extracted metadata for article: Trump China tariff truce ignites stock markets – will it also pump up president's poll numbers?
+[2025-05-12 21:01:19,050] - [INFO] - Fetching content from: https://www.google.com/sorry/index?continue=https://news.google.com/read/CBMitwFBVV95cUxNVGhWVXI0Nzk4RkVqYTExRjQyS0Q5TzNMY09GUjdnbXhTV3BZbFN1eS1YckI3YkdIbTdGRnh6M3JBdVJFX3JkOHpZWFBsYkg0dUxjS0ExTXFjbTBBYzNlMDVIVU43RkpSOHF3V2E1dXF4SHlseEZUMjJ6enhSZUVoVWpsaVNxbFkzRjlKZmxaQTBQbUhLXzVsQTZiNW4yeHdxbGRUOEpmeFNoSkhjazl1cmVUWXBFRTTSAbwBQVVfeXFMTWdGWnZiQU4zSDh6aWxMMURZWV9YczlSYndhX2tGMVR1SjVlSmo2dFhpc0hQdGRFZHcyNHNqSlk5czV1aldOOUdPT1NNYWZ5eC1EQndzdlh6TThjUGVIVmJtelllQ1lWalNpb1pROTZWV3lvV0dJa3RBWExtM1RzcUNmSVpTUzBud0p4ZU1EazV3TUtiQm8xZDJydVk2Umk1aGluaXJ6U3FBSjBWVTlLZDFoYldnTUtjaFJ2T0c%3Fhl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen&hl=en-US&q=EhAqAZcARt68AI3dw7NeLu7sGMruiMEGIjAgUU-5S8LyEC3nZQWJIGRHYB2bCUliFUGnjQ3nV4-s2vYjeguNfl6LzEo61-4xgm0yAnJSWgFD
+[2025-05-12 21:01:19,298] - [WARNING] - Failed to scrape article content: Trump China tariff truce ignites stock markets – will it also pump up president's poll numbers?
+[2025-05-12 21:01:19,298] - [INFO] - Processing article 2/96
+[2025-05-12 21:02:04,186] - [INFO] - Extracted metadata for article: Small Caps Soar on the U.S.-China Trade Deal. They Can Rally a Whole Lot More.
+[2025-05-12 21:02:04,187] - [INFO] - Fetching content from: https://www.barrons.com/articles/small-cap-stocks-china-tariffs-trump-b829a8b2
+[2025-05-12 21:02:04,508] - [WARNING] - Failed to scrape article content: Small Caps Soar on the U.S.-China Trade Deal. They Can Rally a Whole Lot More.
+[2025-05-12 21:02:04,508] - [INFO] - Processing article 3/96
+[2025-05-12 21:03:49,060] - [INFO] - Extracted metadata for article: Stock market today: Dow gains 1,000 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 21:03:49,060] - [INFO] - Fetching content from: https://finance.yahoo.com/news/live/stock-market-today-dow-gains-1000-points-while-sp-500-nasdaq-surge-as-us-china-deal-spurs-a-rush-into-stocks-133030475.html
+[2025-05-12 21:03:50,750] - [INFO] - Successfully added article: Stock market today: Dow gains 1,000 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 21:03:50,750] - [INFO] - Processing article 4/96
+[2025-05-12 21:04:36,222] - [INFO] - Extracted metadata for article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 21:04:36,222] - [INFO] - Fetching content from: https://www.nytimes.com/2025/05/10/business/elizabeth-holmes-partner-blood-testing-startup.html
+[2025-05-12 21:04:36,923] - [INFO] - Successfully added article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 21:04:36,924] - [INFO] - Processing article 5/96
+[2025-05-12 21:05:18,796] - [INFO] - Extracted metadata for article: Elizabeth Holmes' partner raises millions for new biotech testing startup
+[2025-05-12 21:05:18,797] - [INFO] - Fetching content from: https://www.npr.org/2025/05/10/nx-s1-5393950/elizabeth-holmes-theranos-billy-evans-blood-testing
+[2025-05-12 21:05:18,956] - [INFO] - Successfully added article: Elizabeth Holmes' partner raises millions for new biotech testing startup
+[2025-05-12 21:05:18,957] - [INFO] - Processing article 6/96
+[2025-05-12 21:13:24,711] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 21:13:24,711] - [INFO] - ==================================================
+[2025-05-12 21:13:24,711] - [INFO] - Starting Google News Scraper
+[2025-05-12 21:13:24,712] - [INFO] - ==================================================
+[2025-05-12 21:13:24,712] - [INFO] - Running example search for topic: 'business'
+[2025-05-12 21:13:26,323] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-12 21:13:28,761] - [INFO] - Found 105 article elements
+[2025-05-12 21:13:28,761] - [INFO] - Processing article 1/105
+[2025-05-12 21:14:10,847] - [INFO] - Extracted metadata for article: Trump China tariff truce ignites stock markets – will it also pump up president's poll numbers?
+[2025-05-12 21:14:10,847] - [INFO] - Fetching content from: https://www.google.com/sorry/index?continue=https://news.google.com/read/CBMitwFBVV95cUxNVGhWVXI0Nzk4RkVqYTExRjQyS0Q5TzNMY09GUjdnbXhTV3BZbFN1eS1YckI3YkdIbTdGRnh6M3JBdVJFX3JkOHpZWFBsYkg0dUxjS0ExTXFjbTBBYzNlMDVIVU43RkpSOHF3V2E1dXF4SHlseEZUMjJ6enhSZUVoVWpsaVNxbFkzRjlKZmxaQTBQbUhLXzVsQTZiNW4yeHdxbGRUOEpmeFNoSkhjazl1cmVUWXBFRTTSAbwBQVVfeXFMTWdGWnZiQU4zSDh6aWxMMURZWV9YczlSYndhX2tGMVR1SjVlSmo2dFhpc0hQdGRFZHcyNHNqSlk5czV1aldOOUdPT1NNYWZ5eC1EQndzdlh6TThjUGVIVmJtelllQ1lWalNpb1pROTZWV3lvV0dJa3RBWExtM1RzcUNmSVpTUzBud0p4ZU1EazV3TUtiQm8xZDJydVk2Umk1aGluaXJ6U3FBSjBWVTlLZDFoYldnTUtjaFJ2T0c%3Fhl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen&hl=en-US&q=EhAqAZcARt68AI3dw7NeLu7sGM70iMEGIjCXiUbYuIt0WqYXHyCh_mvTnzxROJ5oxVfLE8ezlxpAxm162VFThiZHqzbvWRSKP6wyAnJSWgFD
+[2025-05-12 21:14:11,123] - [WARNING] - Failed to scrape article content: Trump China tariff truce ignites stock markets – will it also pump up president's poll numbers?
+[2025-05-12 21:14:11,124] - [INFO] - Processing article 2/105
+[2025-05-12 21:14:55,573] - [INFO] - Extracted metadata for article: The Good News on Trade Will Bring New Stock Market Highs. Eventually.
+[2025-05-12 21:14:55,573] - [INFO] - Fetching content from: https://www.barrons.com/articles/stocks-china-tariffs-trade-6905fa22
+[2025-05-12 21:14:55,923] - [WARNING] - Failed to scrape article content: The Good News on Trade Will Bring New Stock Market Highs. Eventually.
+[2025-05-12 21:14:55,923] - [INFO] - Processing article 3/105
+[2025-05-12 21:17:03,746] - [INFO] - Extracted metadata for article: Stock market today: Dow gains 1,000 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 21:17:03,746] - [INFO] - Fetching content from: https://finance.yahoo.com/news/live/stock-market-today-dow-gains-1000-points-while-sp-500-nasdaq-surge-as-us-china-deal-spurs-a-rush-into-stocks-133030475.html
+[2025-05-12 21:17:05,887] - [INFO] - Successfully added article: Stock market today: Dow gains 1,000 points, while S&P 500, Nasdaq surge as US-China deal spurs a rush into stocks
+[2025-05-12 21:17:05,888] - [INFO] - Processing article 4/105
+[2025-05-12 21:17:49,330] - [INFO] - Extracted metadata for article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 21:17:49,331] - [INFO] - Fetching content from: https://www.nytimes.com/2025/05/10/business/elizabeth-holmes-partner-blood-testing-startup.html
+[2025-05-12 21:17:50,245] - [INFO] - Successfully added article: Elizabeth Holmes’s Partner Has a New Blood-Testing Start-Up
+[2025-05-12 21:17:50,245] - [INFO] - Processing article 5/105
+[2025-05-12 23:15:23,951] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 23:15:39,046] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 23:15:39,457] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 23:15:44,647] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 23:15:44,648] - [INFO] - ==================================================
+[2025-05-12 23:15:44,648] - [INFO] - Starting Google News Scraper
+[2025-05-12 23:15:44,648] - [INFO] - ==================================================
+[2025-05-12 23:15:44,649] - [INFO] - Running example search for topic: 'business'
+[2025-05-12 23:15:48,859] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-12 23:15:51,856] - [INFO] - Found 123 article elements
+[2025-05-12 23:15:51,857] - [INFO] - Processing article 1/123
+[2025-05-12 23:16:11,647] - [INFO] - Extracted metadata for article: Dow jumps more than 1,100 points, S&P 500 rises 3% on China-U.S. temporary tariff cut: Live updates
+[2025-05-12 23:16:11,648] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/11/stock-market-today-live-updates.html
+[2025-05-12 23:16:14,387] - [INFO] - Successfully added article: Dow jumps more than 1,100 points, S&P 500 rises 3% on China-U.S. temporary tariff cut: Live updates
+[2025-05-12 23:16:14,387] - [INFO] - Processing article 2/123
+[2025-05-12 23:16:25,149] - [INFO] - Extracted metadata for article: Wall Street stocks soar on US-China tariff reprieve
+[2025-05-12 23:16:25,149] - [INFO] - Fetching content from: https://www.ft.com/content/44b6817b-12a9-47c9-9ab0-5b906c7eacaf
+[2025-05-12 23:16:28,865] - [INFO] - Successfully added article: Wall Street stocks soar on US-China tariff reprieve
+[2025-05-12 23:16:28,865] - [INFO] - Processing article 3/123
+[2025-05-12 23:16:39,654] - [INFO] - Extracted metadata for article: Stocks soar after U.S. and China agree to temporarily slash tariffs
+[2025-05-12 23:16:39,655] - [INFO] - Fetching content from: https://www.npr.org/2025/05/12/nx-s1-5395645/us-china-tariff-deal-trade-trump
+[2025-05-12 23:17:10,368] - [WARNING] - Failed to scrape article content: Stocks soar after U.S. and China agree to temporarily slash tariffs
+[2025-05-12 23:17:10,369] - [INFO] - Processing article 4/123
+[2025-05-12 23:17:21,485] - [INFO] - Extracted metadata for article: 'Resort fees’ in the U.S. must now be disclosed. But some aren't celebrating yet
+[2025-05-12 23:17:21,485] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/12/resort-fees-must-be-disclosed-what-to-do-if-youre-charged-one.html
+[2025-05-12 23:17:23,814] - [INFO] - Successfully added article: 'Resort fees’ in the U.S. must now be disclosed. But some aren't celebrating yet
+[2025-05-12 23:17:23,815] - [INFO] - Processing article 5/123
+[2025-05-12 23:17:54,680] - [INFO] - Extracted metadata for article: Ticketmaster begins up-front ticket pricing as Biden admin "junk fee" ban takes effect
+[2025-05-12 23:17:54,680] - [INFO] - Fetching content from: https://www.cbsnews.com/news/ticket-ticketmaster-pricing-biden-junk-fee-rule/
+[2025-05-12 23:17:55,554] - [INFO] - Successfully added article: Ticketmaster begins up-front ticket pricing as Biden admin "junk fee" ban takes effect
+[2025-05-12 23:17:57,958] - [INFO] - Scrape completed in 133.31 seconds
+[2025-05-12 23:17:57,959] - [INFO] - Found 4 articles about 'business':
+[2025-05-12 23:18:25,310] - [INFO] - Saved Dow jumps more than 1,100 points, S&P 500 rises 3% on China-U.S. temporary tariff cut: Live updates news article
+[2025-05-12 23:18:26,193] - [INFO] - Saved Wall Street stocks soar on US-China tariff reprieve news article
+[2025-05-12 23:18:28,763] - [INFO] - Saved 'Resort fees’ in the U.S. must now be disclosed. But some aren't celebrating yet news article
+[2025-05-12 23:18:31,002] - [INFO] - Saved Ticketmaster begins up-front ticket pricing as Biden admin "junk fee" ban takes effect news article
+[2025-05-12 23:18:31,003] - [INFO] - ==================================================
+[2025-05-12 23:18:31,003] - [INFO] - Google News Scraper Finished
+[2025-05-12 23:18:31,004] - [INFO] - ==================================================
+[2025-05-12 23:18:36,354] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-12 23:18:36,354] - [INFO] - ==================================================
+[2025-05-12 23:18:36,355] - [INFO] - Starting Google News Scraper
+[2025-05-12 23:18:36,355] - [INFO] - ==================================================
+[2025-05-12 23:18:36,356] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 20:46:04,824] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 20:46:21,458] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 20:46:22,049] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 20:46:27,304] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 20:46:27,305] - [INFO] - ==================================================
+[2025-05-13 20:46:27,305] - [INFO] - Starting Google News Scraper
+[2025-05-13 20:46:27,305] - [INFO] - ==================================================
+[2025-05-13 20:46:27,306] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 20:46:31,073] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-13 20:46:34,095] - [INFO] - Found 99 article elements
+[2025-05-13 20:46:34,095] - [INFO] - Processing article 1/99
+[2025-05-13 20:46:45,485] - [INFO] - Extracted metadata for article: Here’s the inflation breakdown for April 2025 — in one chart
+[2025-05-13 20:46:45,485] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/cpi-inflation-breakdown-april-2025-in-one-chart.html
+[2025-05-13 20:46:47,741] - [INFO] - Successfully added article: Here’s the inflation breakdown for April 2025 — in one chart
+[2025-05-13 20:46:47,742] - [INFO] - Processing article 2/99
+[2025-05-13 20:48:52,081] - [INFO] - Extracted metadata for article: Prices for goods and services increased .2% last month, federal agency says
+[2025-05-13 20:48:52,081] - [INFO] - Fetching content from: https://katu.com/news/nation-world/prices-for-goods-and-services-increased-2-last-month-federal-agency-says
+[2025-05-13 20:48:53,267] - [INFO] - Successfully added article: Prices for goods and services increased .2% last month, federal agency says
+[2025-05-13 20:48:53,267] - [INFO] - Processing article 3/99
+[2025-05-13 20:50:03,758] - [INFO] - Extracted metadata for article: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 20:50:03,758] - [INFO] - Fetching content from: https://www.politico.com/news/2025/05/13/trump-tariffs-inflation-trade-economy-fed-powell-00344184
+[2025-05-13 20:50:03,900] - [WARNING] - Failed to scrape article content: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 20:50:03,901] - [INFO] - Processing article 4/99
+[2025-05-13 20:50:16,540] - [INFO] - Extracted metadata for article: UnitedHealth Group CEO Andrew Witty steps down, company suspends annual forecast
+[2025-05-13 20:50:16,541] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/unitedhealth-group-ceo-andrew-witty-steps-down.html
+[2025-05-13 20:50:18,494] - [INFO] - Successfully added article: UnitedHealth Group CEO Andrew Witty steps down, company suspends annual forecast
+[2025-05-13 20:50:18,495] - [INFO] - Processing article 5/99
+[2025-05-13 20:50:39,230] - [INFO] - Extracted metadata for article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 20:50:39,231] - [INFO] - Fetching content from: https://www.usatoday.com/story/money/2025/05/13/unitedhealth-group-ceo-andrew-witty-steps-down/83598736007/
+[2025-05-13 20:50:40,622] - [INFO] - Successfully added article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 20:50:43,149] - [INFO] - Scrape completed in 255.84 seconds
+[2025-05-13 20:50:43,149] - [INFO] - Found 4 articles about 'business':
+[2025-05-13 20:51:10,646] - [INFO] - Saved Here’s the inflation breakdown for April 2025 — in one chart news article
+[2025-05-13 20:51:14,873] - [INFO] - Saved Prices for goods and services increased .2% last month, federal agency says news article
+[2025-05-13 20:51:19,635] - [INFO] - Saved UnitedHealth Group CEO Andrew Witty steps down, company suspends annual forecast news article
+[2025-05-13 20:51:23,721] - [INFO] - Saved UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons' news article
+[2025-05-13 20:51:23,722] - [INFO] - ==================================================
+[2025-05-13 20:51:23,722] - [INFO] - Google News Scraper Finished
+[2025-05-13 20:51:23,723] - [INFO] - ==================================================
+[2025-05-13 20:51:29,043] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 20:51:29,043] - [INFO] - ==================================================
+[2025-05-13 20:51:29,044] - [INFO] - Starting Google News Scraper
+[2025-05-13 20:51:29,044] - [INFO] - ==================================================
+[2025-05-13 20:51:29,044] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 20:51:31,493] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-13 20:51:34,252] - [INFO] - Found 102 article elements
+[2025-05-13 20:51:34,252] - [INFO] - Processing article 1/102
+[2025-05-13 20:52:16,354] - [INFO] - Extracted metadata for article: Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021
+[2025-05-13 20:52:16,354] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/cpi-inflation-april-2025.html
+[2025-05-13 20:52:18,594] - [INFO] - Successfully added article: Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021
+[2025-05-13 20:52:18,595] - [INFO] - Processing article 2/102
+[2025-05-13 20:54:08,684] - [INFO] - Extracted metadata for article: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 20:54:08,685] - [INFO] - Fetching content from: https://www.politico.com/news/2025/05/13/trump-tariffs-inflation-trade-economy-fed-powell-00344184
+[2025-05-13 20:54:08,764] - [WARNING] - Failed to scrape article content: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 20:54:08,764] - [INFO] - Processing article 3/102
+[2025-05-13 20:54:50,830] - [INFO] - Extracted metadata for article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 20:54:50,830] - [INFO] - Fetching content from: https://edition.cnn.com/2025/05/13/economy/us-cpi-consumer-inflation-april
+[2025-05-13 20:54:53,540] - [INFO] - Successfully added article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 20:54:53,541] - [INFO] - Processing article 4/102
+[2025-05-13 20:55:35,040] - [INFO] - Extracted metadata for article: UnitedHealth Group CEO Andrew Witty steps down, company suspends annual forecast
+[2025-05-13 20:55:35,040] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/unitedhealth-group-ceo-andrew-witty-steps-down.html
+[2025-05-13 20:55:37,479] - [INFO] - Successfully added article: UnitedHealth Group CEO Andrew Witty steps down, company suspends annual forecast
+[2025-05-13 20:55:37,479] - [INFO] - Processing article 5/102
+[2025-05-13 20:57:02,824] - [INFO] - Extracted metadata for article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 20:57:02,824] - [INFO] - Fetching content from: https://www.usatoday.com/story/money/2025/05/13/unitedhealth-group-ceo-andrew-witty-steps-down/83598736007/
+[2025-05-13 20:57:03,625] - [INFO] - Successfully added article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 20:57:05,961] - [INFO] - Scrape completed in 336.92 seconds
+[2025-05-13 20:57:05,961] - [INFO] - Found 4 articles about 'business':
+[2025-05-13 20:57:10,785] - [INFO] - Saved Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021 news article
+[2025-05-13 20:57:15,752] - [INFO] - Saved Inflation slowed more than expected in April, despite tariff-related price pressures building news article
+[2025-05-13 20:57:15,843] - [INFO] - ==================================================
+[2025-05-13 20:57:15,843] - [INFO] - Google News Scraper Finished
+[2025-05-13 20:57:15,843] - [INFO] - ==================================================
+[2025-05-13 20:57:21,085] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 20:57:21,086] - [INFO] - ==================================================
+[2025-05-13 20:57:21,086] - [INFO] - Starting Google News Scraper
+[2025-05-13 20:57:21,087] - [INFO] - ==================================================
+[2025-05-13 20:57:21,087] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 20:57:22,701] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-13 20:57:25,900] - [INFO] - Found 102 article elements
+[2025-05-13 20:57:25,901] - [INFO] - Processing article 1/102
+[2025-05-13 20:58:08,413] - [INFO] - Extracted metadata for article: Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021
+[2025-05-13 20:58:08,413] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/cpi-inflation-april-2025.html
+[2025-05-13 20:58:11,172] - [INFO] - Successfully added article: Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021
+[2025-05-13 20:58:11,172] - [INFO] - Processing article 2/102
+[2025-05-13 20:59:55,947] - [INFO] - Extracted metadata for article: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 20:59:55,948] - [INFO] - Fetching content from: https://www.politico.com/news/2025/05/13/trump-tariffs-inflation-trade-economy-fed-powell-00344184
+[2025-05-13 20:59:56,015] - [WARNING] - Failed to scrape article content: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 20:59:56,015] - [INFO] - Processing article 3/102
+[2025-05-13 21:00:39,056] - [INFO] - Extracted metadata for article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 21:00:39,056] - [INFO] - Fetching content from: https://edition.cnn.com/2025/05/13/economy/us-cpi-consumer-inflation-april
+[2025-05-13 21:00:40,759] - [INFO] - Successfully added article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 21:00:40,760] - [INFO] - Processing article 4/102
+[2025-05-13 21:01:23,096] - [INFO] - Extracted metadata for article: UnitedHealth Group abruptly replaces CEO Andrew Witty, deepening a terrible year
+[2025-05-13 21:01:23,096] - [INFO] - Fetching content from: https://www.npr.org/2025/05/13/nx-s1-5396614/unitedhealth-group-terrible-year-replaces-ceo-andrew-witty
+[2025-05-13 21:01:53,342] - [WARNING] - Failed to scrape article content: UnitedHealth Group abruptly replaces CEO Andrew Witty, deepening a terrible year
+[2025-05-13 21:01:53,343] - [INFO] - Processing article 5/102
+[2025-05-13 21:02:55,323] - [INFO] - Extracted metadata for article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 21:02:55,323] - [INFO] - Fetching content from: https://www.usatoday.com/story/money/2025/05/13/unitedhealth-group-ceo-andrew-witty-steps-down/83598736007/
+[2025-05-13 21:02:56,203] - [INFO] - Successfully added article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 21:02:58,735] - [INFO] - Scrape completed in 337.65 seconds
+[2025-05-13 21:02:58,736] - [INFO] - Found 3 articles about 'business':
+[2025-05-13 21:03:00,562] - [INFO] - ==================================================
+[2025-05-13 21:03:00,563] - [INFO] - Google News Scraper Finished
+[2025-05-13 21:03:00,563] - [INFO] - ==================================================
+[2025-05-13 21:03:05,758] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 21:03:05,758] - [INFO] - ==================================================
+[2025-05-13 21:03:05,758] - [INFO] - Starting Google News Scraper
+[2025-05-13 21:03:05,759] - [INFO] - ==================================================
+[2025-05-13 21:03:05,759] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 21:03:07,188] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-13 21:03:10,380] - [INFO] - Found 102 article elements
+[2025-05-13 21:03:10,380] - [INFO] - Processing article 1/102
+[2025-05-13 21:03:52,436] - [INFO] - Extracted metadata for article: Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021
+[2025-05-13 21:03:52,436] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/cpi-inflation-april-2025.html
+[2025-05-13 21:03:54,499] - [INFO] - Successfully added article: Annual inflation rate hit 2.3% in April, less than expected and lowest since 2021
+[2025-05-13 21:03:54,500] - [INFO] - Processing article 2/102
+[2025-05-13 21:05:40,494] - [INFO] - Extracted metadata for article: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 21:05:40,494] - [INFO] - Fetching content from: https://www.politico.com/news/2025/05/13/trump-tariffs-inflation-trade-economy-fed-powell-00344184
+[2025-05-13 21:05:40,579] - [WARNING] - Failed to scrape article content: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 21:05:40,580] - [INFO] - Processing article 3/102
+[2025-05-13 21:06:23,872] - [INFO] - Extracted metadata for article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 21:06:23,872] - [INFO] - Fetching content from: https://edition.cnn.com/2025/05/13/economy/us-cpi-consumer-inflation-april
+[2025-05-13 21:06:25,368] - [INFO] - Successfully added article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 21:06:25,368] - [INFO] - Processing article 4/102
+[2025-05-13 21:07:06,287] - [INFO] - Extracted metadata for article: UnitedHealth Group abruptly replaces CEO Andrew Witty, deepening a terrible year
+[2025-05-13 21:07:06,287] - [INFO] - Fetching content from: https://www.npr.org/2025/05/13/nx-s1-5396614/unitedhealth-group-terrible-year-replaces-ceo-andrew-witty
+[2025-05-13 21:07:36,315] - [WARNING] - Failed to scrape article content: UnitedHealth Group abruptly replaces CEO Andrew Witty, deepening a terrible year
+[2025-05-13 21:07:36,315] - [INFO] - Processing article 5/102
+[2025-05-13 21:08:59,856] - [INFO] - Extracted metadata for article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 21:08:59,856] - [INFO] - Fetching content from: https://www.usatoday.com/story/money/2025/05/13/unitedhealth-group-ceo-andrew-witty-steps-down/83598736007/
+[2025-05-13 21:09:00,812] - [INFO] - Successfully added article: UnitedHealth Group CEO Andrew Witty stepping down due to 'personal reasons'
+[2025-05-13 21:09:03,190] - [INFO] - Scrape completed in 357.43 seconds
+[2025-05-13 21:09:03,200] - [INFO] - Found 3 articles about 'business':
+[2025-05-13 21:09:04,581] - [INFO] - ==================================================
+[2025-05-13 21:09:04,582] - [INFO] - Google News Scraper Finished
+[2025-05-13 21:09:04,583] - [INFO] - ==================================================
+[2025-05-13 21:09:09,805] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 21:09:09,806] - [INFO] - ==================================================
+[2025-05-13 21:09:09,806] - [INFO] - Starting Google News Scraper
+[2025-05-13 21:09:09,806] - [INFO] - ==================================================
+[2025-05-13 21:09:09,807] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 21:09:11,240] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-13 21:09:13,471] - [INFO] - Found 96 article elements
+[2025-05-13 21:09:13,472] - [INFO] - Processing article 1/96
+[2025-05-13 21:09:54,727] - [INFO] - Extracted metadata for article: Here’s the inflation breakdown for April 2025 — in one chart
+[2025-05-13 21:09:54,727] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/cpi-inflation-breakdown-april-2025-in-one-chart.html
+[2025-05-13 21:09:56,460] - [INFO] - Successfully added article: Here’s the inflation breakdown for April 2025 — in one chart
+[2025-05-13 21:09:56,461] - [INFO] - Processing article 2/96
+[2025-05-13 21:11:16,714] - [INFO] - Extracted metadata for article: Inflation Watchers Aren’t Ready to Relax Yet
+[2025-05-13 21:11:16,715] - [INFO] - Fetching content from: https://www.bloomberg.com/news/newsletters/2025-05-13/april-cpi-report-doesn-t-show-trump-tariffs-full-effect
+[2025-05-13 21:11:17,943] - [INFO] - Successfully added article: Inflation Watchers Aren’t Ready to Relax Yet
+[2025-05-13 21:11:17,943] - [INFO] - Processing article 3/96
+[2025-05-13 21:12:33,642] - [INFO] - Extracted metadata for article: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 21:12:33,643] - [INFO] - Fetching content from: https://www.politico.com/news/2025/05/13/trump-tariffs-inflation-trade-economy-fed-powell-00344184
+[2025-05-13 21:12:33,726] - [WARNING] - Failed to scrape article content: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 21:12:33,726] - [INFO] - Processing article 4/96
+[2025-05-13 21:13:46,334] - [INFO] - Extracted metadata for article: ESPN's DTC streaming service set for fall launch
+[2025-05-13 21:13:46,335] - [INFO] - Fetching content from: https://www.espn.com/espn/story/_/id/45126967/espn-direct-consumer-streaming-service-set-fall-launch
+[2025-05-13 21:13:48,317] - [INFO] - Successfully added article: ESPN's DTC streaming service set for fall launch
+[2025-05-13 21:13:48,317] - [INFO] - Processing article 5/96
+[2025-05-13 21:14:30,323] - [INFO] - Extracted metadata for article: Will ESPN’s new streaming service spell the end for cable television?
+[2025-05-13 21:14:30,323] - [INFO] - Fetching content from: https://www.marketwatch.com/story/will-espns-new-streaming-service-spell-the-end-for-cable-television-58fe7060
+[2025-05-13 21:14:30,555] - [WARNING] - Failed to scrape article content: Will ESPN’s new streaming service spell the end for cable television?
+[2025-05-13 21:14:32,967] - [INFO] - Scrape completed in 323.16 seconds
+[2025-05-13 21:14:32,967] - [INFO] - Found 3 articles about 'business':
+[2025-05-13 21:14:36,773] - [INFO] - Saved Inflation Watchers Aren’t Ready to Relax Yet news article
+[2025-05-13 21:14:40,332] - [INFO] - Saved ESPN's DTC streaming service set for fall launch news article
+[2025-05-13 21:14:40,332] - [INFO] - ==================================================
+[2025-05-13 21:14:40,333] - [INFO] - Google News Scraper Finished
+[2025-05-13 21:14:40,333] - [INFO] - ==================================================
+[2025-05-13 21:14:45,526] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-13 21:14:45,527] - [INFO] - ==================================================
+[2025-05-13 21:14:45,527] - [INFO] - Starting Google News Scraper
+[2025-05-13 21:14:45,527] - [INFO] - ==================================================
+[2025-05-13 21:14:45,527] - [INFO] - Running example search for topic: 'business'
+[2025-05-13 21:14:46,973] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-13 21:14:49,040] - [INFO] - Found 96 article elements
+[2025-05-13 21:14:49,040] - [INFO] - Processing article 1/96
+[2025-05-13 21:15:00,326] - [INFO] - Extracted metadata for article: Here’s the inflation breakdown for April 2025 — in one chart
+[2025-05-13 21:15:00,327] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/13/cpi-inflation-breakdown-april-2025-in-one-chart.html
+[2025-05-13 21:15:02,179] - [INFO] - Successfully added article: Here’s the inflation breakdown for April 2025 — in one chart
+[2025-05-13 21:15:02,179] - [INFO] - Processing article 2/96
+[2025-05-13 21:16:41,929] - [INFO] - Extracted metadata for article: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 21:16:41,929] - [INFO] - Fetching content from: https://www.politico.com/news/2025/05/13/trump-tariffs-inflation-trade-economy-fed-powell-00344184
+[2025-05-13 21:16:42,035] - [WARNING] - Failed to scrape article content: Trump tariffs have little impact on prices so far, defying grim forecasts
+[2025-05-13 21:16:42,036] - [INFO] - Processing article 3/96
+[2025-05-13 21:16:52,942] - [INFO] - Extracted metadata for article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 21:16:52,943] - [INFO] - Fetching content from: https://edition.cnn.com/2025/05/13/economy/us-cpi-consumer-inflation-april
+[2025-05-13 21:16:54,816] - [INFO] - Successfully added article: Inflation slowed more than expected in April, despite tariff-related price pressures building
+[2025-05-13 21:16:54,816] - [INFO] - Processing article 4/96
+[2025-05-14 01:48:44,830] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 01:49:01,499] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 01:49:02,172] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:04:02,880] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:04:02,880] - [INFO] - ==================================================
+[2025-05-14 02:04:02,881] - [INFO] - Starting Google News Scraper
+[2025-05-14 02:04:02,881] - [INFO] - ==================================================
+[2025-05-14 02:04:02,882] - [INFO] - Running example search for topic: 'business'
+[2025-05-14 02:04:07,129] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-14 02:04:09,742] - [INFO] - Found 86 article elements
+[2025-05-14 02:04:09,743] - [INFO] - Processing article 1/86
+[2025-05-14 02:05:35,584] - [INFO] - Extracted metadata for article: UnitedHealth CEO steps down for ‘personal reasons’
+[2025-05-14 02:05:35,585] - [INFO] - Fetching content from: https://edition.cnn.com/2025/05/13/business/unitedhealth-ceo-steps-down-for-personal-reasons
+[2025-05-14 02:06:04,447] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:06:04,683] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:06:53,394] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:06:53,614] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:10:32,848] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:10:33,128] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:11:35,858] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:11:36,086] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:12:44,492] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:12:44,721] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:13:59,505] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:13:59,757] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:16:11,948] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:16:12,182] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:18:03,209] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 02:18:03,495] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:33:13,435] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:33:30,570] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:33:31,225] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:35:32,315] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:35:32,570] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:39:27,334] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:39:27,590] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:41:12,293] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:41:12,529] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:44:19,673] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:44:19,944] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:47:49,619] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:47:49,848] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:57:04,924] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:57:05,275] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:59:56,903] - [INFO] - Connected to MongoDB successfully: 1.0
+[2025-05-14 18:59:57,515] - [INFO] - Connected to MongoDB successfully: 1.0
+==================================================
+[2025-05-14 23:03:57,490] - [INFO] - ==================================================
+Starting Google News Scraper
+[2025-05-14 23:03:57,491] - [INFO] - Starting Google News Scraper
+==================================================
+[2025-05-14 23:03:57,491] - [INFO] - ==================================================
+Running example search for topic: 'business'
+[2025-05-14 23:03:57,491] - [INFO] - Running example search for topic: 'business'
+Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-14 23:04:04,893] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+Found 153 article elements
+[2025-05-14 23:04:07,387] - [INFO] - Found 153 article elements
+Processing article 1/153
+[2025-05-14 23:04:07,388] - [INFO] - Processing article 1/153
+Extracted metadata for article: Nvidia stock extends gains as Saudi Arabia set to spend billions on AI chips, US moves to rescind Biden's chip curbs
+[2025-05-14 23:05:24,381] - [INFO] - Extracted metadata for article: Nvidia stock extends gains as Saudi Arabia set to spend billions on AI chips, US moves to rescind Biden's chip curbs
+Fetching content from: https://finance.yahoo.com/news/nvidia-stock-extends-gains-as-saudi-arabia-set-to-spend-billions-on-ai-chips-us-moves-to-rescind-bidens-chip-curbs-132859592.html
+[2025-05-14 23:05:24,381] - [INFO] - Fetching content from: https://finance.yahoo.com/news/nvidia-stock-extends-gains-as-saudi-arabia-set-to-spend-billions-on-ai-chips-us-moves-to-rescind-bidens-chip-curbs-132859592.html
+Successfully added article: Nvidia stock extends gains as Saudi Arabia set to spend billions on AI chips, US moves to rescind Biden's chip curbs
+[2025-05-14 23:05:27,794] - [INFO] - Successfully added article: Nvidia stock extends gains as Saudi Arabia set to spend billions on AI chips, US moves to rescind Biden's chip curbs
+Processing article 2/153
+[2025-05-14 23:05:27,795] - [INFO] - Processing article 2/153
+Extracted metadata for article: Trump's Gulf tour sparks AI, finance and energy deals
+[2025-05-14 23:06:41,885] - [INFO] - Extracted metadata for article: Trump's Gulf tour sparks AI, finance and energy deals
+Fetching content from: https://www.reuters.com/world/middle-east/deals-take-centre-stage-trumps-gulf-visit-2025-05-13/
+[2025-05-14 23:06:41,885] - [INFO] - Fetching content from: https://www.reuters.com/world/middle-east/deals-take-centre-stage-trumps-gulf-visit-2025-05-13/
+Failed to scrape article content: Trump's Gulf tour sparks AI, finance and energy deals
+[2025-05-14 23:06:42,183] - [WARNING] - Failed to scrape article content: Trump's Gulf tour sparks AI, finance and energy deals
+Processing article 3/153
+[2025-05-14 23:06:42,183] - [INFO] - Processing article 3/153
+Extracted metadata for article: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+[2025-05-14 23:07:34,131] - [INFO] - Extracted metadata for article: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+Fetching content from: https://www.marketwatch.com/story/nvidia-amd-extend-stock-gains-why-the-ai-trade-is-roaring-back-33696883
+[2025-05-14 23:07:34,132] - [INFO] - Fetching content from: https://www.marketwatch.com/story/nvidia-amd-extend-stock-gains-why-the-ai-trade-is-roaring-back-33696883
+Failed to scrape article content: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+[2025-05-14 23:07:34,356] - [WARNING] - Failed to scrape article content: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+Processing article 4/153
+[2025-05-14 23:07:34,358] - [INFO] - Processing article 4/153
+Extracted metadata for article: Stock market today: Nasdaq edges higher as Nvidia, AMD lead chip gains
+[2025-05-14 23:07:50,064] - [INFO] - Extracted metadata for article: Stock market today: Nasdaq edges higher as Nvidia, AMD lead chip gains
+Fetching content from: https://finance.yahoo.com/news/live/stock-market-today-nasdaq-notches-6th-day-of-gains-as-nvidia-chips-lead-tech-rally-233114013.html
+[2025-05-14 23:07:50,064] - [INFO] - Fetching content from: https://finance.yahoo.com/news/live/stock-market-today-nasdaq-notches-6th-day-of-gains-as-nvidia-chips-lead-tech-rally-233114013.html
+Successfully added article: Stock market today: Nasdaq edges higher as Nvidia, AMD lead chip gains
+[2025-05-14 23:07:53,029] - [INFO] - Successfully added article: Stock market today: Nasdaq edges higher as Nvidia, AMD lead chip gains
+Processing article 5/153
+[2025-05-14 23:07:53,029] - [INFO] - Processing article 5/153
+Extracted metadata for article: Stocks just erased all of this year’s losses as investors welcome trade progress
+[2025-05-14 23:08:46,213] - [INFO] - Extracted metadata for article: Stocks just erased all of this year’s losses as investors welcome trade progress
+Fetching content from: https://edition.cnn.com/2025/05/13/business/stock-market-dow
+[2025-05-14 23:08:46,213] - [INFO] - Fetching content from: https://edition.cnn.com/2025/05/13/business/stock-market-dow
+Successfully added article: Stocks just erased all of this year’s losses as investors welcome trade progress
+[2025-05-14 23:08:48,514] - [INFO] - Successfully added article: Stocks just erased all of this year’s losses as investors welcome trade progress
+Processing article 6/153
+[2025-05-14 23:08:48,515] - [INFO] - Processing article 6/153
+Extracted metadata for article: Tech Stocks Rally as Gulf Deals Buoy Wall Street: Markets Wrap
+[2025-05-14 23:09:09,152] - [INFO] - Extracted metadata for article: Tech Stocks Rally as Gulf Deals Buoy Wall Street: Markets Wrap
+Fetching content from: https://www.bloomberg.com/news/articles/2025-05-13/stock-market-today-dow-s-p-live-updates
+[2025-05-14 23:09:09,152] - [INFO] - Fetching content from: https://www.bloomberg.com/news/articles/2025-05-13/stock-market-today-dow-s-p-live-updates
+Successfully added article: Tech Stocks Rally as Gulf Deals Buoy Wall Street: Markets Wrap
+[2025-05-14 23:09:11,092] - [INFO] - Successfully added article: Tech Stocks Rally as Gulf Deals Buoy Wall Street: Markets Wrap
+Processing article 7/153
+[2025-05-14 23:09:11,092] - [INFO] - Processing article 7/153
+Extracted metadata for article: Netflix’s ad tier is growing really fast — and that means more ads
+[2025-05-14 23:10:05,645] - [INFO] - Extracted metadata for article: Netflix’s ad tier is growing really fast — and that means more ads
+Fetching content from: https://www.theverge.com/news/667042/netflix-ad-supported-tier-94-million-users-upfront-2025
+[2025-05-14 23:10:05,645] - [INFO] - Fetching content from: https://www.theverge.com/news/667042/netflix-ad-supported-tier-94-million-users-upfront-2025
+Successfully added article: Netflix’s ad tier is growing really fast — and that means more ads
+[2025-05-14 23:10:08,510] - [INFO] - Successfully added article: Netflix’s ad tier is growing really fast — and that means more ads
+Processing article 8/153
+[2025-05-14 23:10:08,512] - [INFO] - Processing article 8/153
+Extracted metadata for article: Netflix Reveals New Adtech, Recruits Emily in Paris to Pitch Advertisers at Upfront
+[2025-05-14 23:10:58,485] - [INFO] - Extracted metadata for article: Netflix Reveals New Adtech, Recruits Emily in Paris to Pitch Advertisers at Upfront
+Fetching content from: https://www.adweek.com/convergent-tv/netflix-adtech-upfront-partnerships/
+[2025-05-14 23:10:58,485] - [INFO] - Fetching content from: https://www.adweek.com/convergent-tv/netflix-adtech-upfront-partnerships/
+Successfully added article: Netflix Reveals New Adtech, Recruits Emily in Paris to Pitch Advertisers at Upfront
+[2025-05-14 23:11:00,129] - [INFO] - Successfully added article: Netflix Reveals New Adtech, Recruits Emily in Paris to Pitch Advertisers at Upfront
+Processing article 9/153
+[2025-05-14 23:11:00,130] - [INFO] - Processing article 9/153
+Extracted metadata for article: Netflix says ad-supported service has 94 million subscribers
+[2025-05-14 23:11:31,104] - [INFO] - Extracted metadata for article: Netflix says ad-supported service has 94 million subscribers
+Fetching content from: https://finance.yahoo.com/news/netflix-says-ad-supported-94-184413059.html
+[2025-05-14 23:11:31,104] - [INFO] - Fetching content from: https://finance.yahoo.com/news/netflix-says-ad-supported-94-184413059.html
+Successfully added article: Netflix says ad-supported service has 94 million subscribers
+[2025-05-14 23:11:33,529] - [INFO] - Successfully added article: Netflix says ad-supported service has 94 million subscribers
+Processing article 10/153
+[2025-05-14 23:11:33,531] - [INFO] - Processing article 10/153
+Error processing article: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-14 23:11:33,565] - [ERROR] - Error processing article: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Processing article 11/153
+[2025-05-14 23:11:33,569] - [INFO] - Processing article 11/153
+Connected to MongoDB successfully: 1.0
+[2025-05-14 23:11:53,142] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-14 23:11:53,382] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-14 23:57:08,881] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-14 23:57:26,425] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-14 23:57:26,901] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 00:12:27,432] - [INFO] - Connected to MongoDB successfully: 1.0
+==================================================
+[2025-05-15 00:12:27,432] - [INFO] - ==================================================
+Starting Google News Scraper
+[2025-05-15 00:12:27,433] - [INFO] - Starting Google News Scraper
+==================================================
+[2025-05-15 00:12:27,433] - [INFO] - ==================================================
+Running example search for topic: 'business'
+[2025-05-15 00:12:27,433] - [INFO] - Running example search for topic: 'business'
+Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-15 00:12:31,558] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+Found 165 article elements
+[2025-05-15 00:12:34,414] - [INFO] - Found 165 article elements
+Processing article 1/165
+[2025-05-15 00:12:34,414] - [INFO] - Processing article 1/165
+Extracted metadata for article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+[2025-05-15 00:14:29,387] - [INFO] - Extracted metadata for article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+Fetching content from: https://finance.yahoo.com/news/nvidia-nvda-jumps-6-saudi-201602598.html
+[2025-05-15 00:14:29,387] - [INFO] - Fetching content from: https://finance.yahoo.com/news/nvidia-nvda-jumps-6-saudi-201602598.html
+Successfully added article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+[2025-05-15 00:14:32,189] - [INFO] - Successfully added article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+Processing article 2/165
+[2025-05-15 00:14:32,190] - [INFO] - Processing article 2/165
+Extracted metadata for article: Trump's Gulf tour sparks AI, finance and energy deals
+[2025-05-15 00:16:16,393] - [INFO] - Extracted metadata for article: Trump's Gulf tour sparks AI, finance and energy deals
+Fetching content from: https://www.reuters.com/world/middle-east/deals-take-centre-stage-trumps-gulf-visit-2025-05-13/
+[2025-05-15 00:16:16,393] - [INFO] - Fetching content from: https://www.reuters.com/world/middle-east/deals-take-centre-stage-trumps-gulf-visit-2025-05-13/
+Failed to scrape article content: Trump's Gulf tour sparks AI, finance and energy deals
+[2025-05-15 00:16:16,698] - [WARNING] - Failed to scrape article content: Trump's Gulf tour sparks AI, finance and energy deals
+Processing article 3/165
+[2025-05-15 00:16:16,698] - [INFO] - Processing article 3/165
+Extracted metadata for article: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+[2025-05-15 00:17:00,047] - [INFO] - Extracted metadata for article: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+Fetching content from: https://www.marketwatch.com/story/nvidia-amd-extend-stock-gains-why-the-ai-trade-is-roaring-back-33696883
+[2025-05-15 00:17:00,047] - [INFO] - Fetching content from: https://www.marketwatch.com/story/nvidia-amd-extend-stock-gains-why-the-ai-trade-is-roaring-back-33696883
+Failed to scrape article content: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+[2025-05-15 00:17:00,286] - [WARNING] - Failed to scrape article content: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+Processing article 4/165
+[2025-05-15 00:17:00,286] - [INFO] - Processing article 4/165
+Extracted metadata for article: Netflix will show generative AI ads midway through streams in 2026
+[2025-05-15 00:18:26,064] - [INFO] - Extracted metadata for article: Netflix will show generative AI ads midway through streams in 2026
+Fetching content from: https://arstechnica.com/gadgets/2025/05/netflix-will-show-generative-ai-ads-midway-through-streams-in-2026/
+[2025-05-15 00:18:26,065] - [INFO] - Fetching content from: https://arstechnica.com/gadgets/2025/05/netflix-will-show-generative-ai-ads-midway-through-streams-in-2026/
+Successfully added article: Netflix will show generative AI ads midway through streams in 2026
+[2025-05-15 00:18:28,469] - [INFO] - Successfully added article: Netflix will show generative AI ads midway through streams in 2026
+Processing article 5/165
+[2025-05-15 00:18:28,469] - [INFO] - Processing article 5/165
+Extracted metadata for article: Netflix Ad Tier Reaches 94M Monthly Active Users, With Average Engagement Of 41 Hours A Month In U.S.
+[2025-05-15 00:19:12,672] - [INFO] - Extracted metadata for article: Netflix Ad Tier Reaches 94M Monthly Active Users, With Average Engagement Of 41 Hours A Month In U.S.
+Fetching content from: https://deadline.com/2025/05/netflix-ad-tier-reaches-94-million-monthly-active-users-1236397938/
+[2025-05-15 00:19:12,672] - [INFO] - Fetching content from: https://deadline.com/2025/05/netflix-ad-tier-reaches-94-million-monthly-active-users-1236397938/
+Successfully added article: Netflix Ad Tier Reaches 94M Monthly Active Users, With Average Engagement Of 41 Hours A Month In U.S.
+[2025-05-15 00:19:14,862] - [INFO] - Successfully added article: Netflix Ad Tier Reaches 94M Monthly Active Users, With Average Engagement Of 41 Hours A Month In U.S.
+Processing article 6/165
+[2025-05-15 00:19:14,863] - [INFO] - Processing article 6/165
+Connected to MongoDB successfully: 1.0
+[2025-05-15 00:22:35,569] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 00:22:56,502] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 00:22:56,874] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 00:23:07,065] - [INFO] - Connected to MongoDB successfully: 1.0
+==================================================
+[2025-05-15 00:23:07,065] - [INFO] - ==================================================
+Starting Google News Scraper
+[2025-05-15 00:23:07,065] - [INFO] - Starting Google News Scraper
+==================================================
+[2025-05-15 00:23:07,066] - [INFO] - ==================================================
+Running example search for topic: 'business'
+[2025-05-15 00:23:07,066] - [INFO] - Running example search for topic: 'business'
+Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-15 00:23:08,868] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+Found 168 article elements
+[2025-05-15 00:23:12,872] - [INFO] - Found 168 article elements
+Processing article 1/168
+[2025-05-15 00:23:12,872] - [INFO] - Processing article 1/168
+Extracted metadata for article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+[2025-05-15 00:24:45,595] - [INFO] - Extracted metadata for article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+Fetching content from: https://finance.yahoo.com/news/nvidia-nvda-jumps-6-saudi-201602598.html
+[2025-05-15 00:24:45,595] - [INFO] - Fetching content from: https://finance.yahoo.com/news/nvidia-nvda-jumps-6-saudi-201602598.html
+Successfully added article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+[2025-05-15 00:24:49,066] - [INFO] - Successfully added article: Nvidia (NVDA) Jumps 6% on Saudi Chip Deal; CEO Net Worth Nears $120 Billion
+Processing article 2/168
+[2025-05-15 00:24:49,067] - [INFO] - Processing article 2/168
+Extracted metadata for article: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+[2025-05-15 00:25:32,937] - [INFO] - Extracted metadata for article: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+Fetching content from: https://www.marketwatch.com/story/nvidia-amd-extend-stock-gains-why-the-ai-trade-is-roaring-back-33696883
+[2025-05-15 00:25:32,937] - [INFO] - Fetching content from: https://www.marketwatch.com/story/nvidia-amd-extend-stock-gains-why-the-ai-trade-is-roaring-back-33696883
+Failed to scrape article content: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+[2025-05-15 00:25:33,208] - [WARNING] - Failed to scrape article content: Nvidia, AMD extend stock gains. Why the AI trade is roaring back.
+Processing article 3/168
+[2025-05-15 00:25:33,208] - [INFO] - Processing article 3/168
+Extracted metadata for article: AWS and HUMAIN announce a more than $5B investment to accelerate AI adoption in Saudi Arabia and globally
+[2025-05-15 00:26:28,102] - [INFO] - Extracted metadata for article: AWS and HUMAIN announce a more than $5B investment to accelerate AI adoption in Saudi Arabia and globally
+Fetching content from: https://www.aboutamazon.com/news/company-news/amazon-aws-humain-ai-investment-in-saudi-arabia
+[2025-05-15 00:26:28,102] - [INFO] - Fetching content from: https://www.aboutamazon.com/news/company-news/amazon-aws-humain-ai-investment-in-saudi-arabia
+Successfully added article: AWS and HUMAIN announce a more than $5B investment to accelerate AI adoption in Saudi Arabia and globally
+[2025-05-15 00:26:29,078] - [INFO] - Successfully added article: AWS and HUMAIN announce a more than $5B investment to accelerate AI adoption in Saudi Arabia and globally
+Processing article 4/168
+[2025-05-15 00:26:29,078] - [INFO] - Processing article 4/168
+Connected to MongoDB successfully: 1.0
+[2025-05-15 11:42:01,274] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 11:42:21,409] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 11:42:22,036] - [INFO] - Connected to MongoDB successfully: 1.0
+Connected to MongoDB successfully: 1.0
+[2025-05-15 11:42:32,258] - [INFO] - Connected to MongoDB successfully: 1.0
+==================================================
+[2025-05-15 11:42:32,258] - [INFO] - ==================================================
+Starting Google News Scraper
+[2025-05-15 11:42:32,259] - [INFO] - Starting Google News Scraper
+==================================================
+[2025-05-15 11:42:32,259] - [INFO] - ==================================================
+Running example search for topic: 'business'
+[2025-05-15 11:42:32,259] - [INFO] - Running example search for topic: 'business'
+Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-15 11:42:37,287] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+Found 189 article elements
+[2025-05-15 11:42:40,585] - [INFO] - Found 189 article elements
+Processing article 1/189
+[2025-05-15 11:42:40,586] - [INFO] - Processing article 1/189
+Extracted metadata for article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+[2025-05-15 11:44:03,402] - [INFO] - Extracted metadata for article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+Fetching content from: https://www.bloomberg.com/news/articles/2025-05-14/stock-market-today-dow-s-p-live-updates
+[2025-05-15 11:44:03,404] - [INFO] - Fetching content from: https://www.bloomberg.com/news/articles/2025-05-14/stock-market-today-dow-s-p-live-updates
+Successfully added article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+[2025-05-15 11:44:05,476] - [INFO] - Successfully added article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+Processing article 2/189
+[2025-05-15 11:44:05,476] - [INFO] - Processing article 2/189
+Extracted metadata for article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+[2025-05-15 11:44:47,533] - [INFO] - Extracted metadata for article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+Fetching content from: https://www.cnbc.com/2025/05/15/asia-pacific-live-us-china-trade.html
+[2025-05-15 11:44:47,533] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/15/asia-pacific-live-us-china-trade.html
+Successfully added article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+[2025-05-15 11:44:49,503] - [INFO] - Successfully added article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+Processing article 3/189
+[2025-05-15 11:44:49,504] - [INFO] - Processing article 3/189
+Extracted metadata for article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+[2025-05-15 11:45:40,644] - [INFO] - Extracted metadata for article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+Fetching content from: https://seekingalpha.com/news/4448502-asia-stocks-mixed-tracking-drop-in-us-futures-after-mixed-wall-street-session-and-trade-policy-uncertainty
+[2025-05-15 11:45:40,644] - [INFO] - Fetching content from: https://seekingalpha.com/news/4448502-asia-stocks-mixed-tracking-drop-in-us-futures-after-mixed-wall-street-session-and-trade-policy-uncertainty
+Successfully added article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+[2025-05-15 11:45:44,238] - [INFO] - Successfully added article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+Processing article 4/189
+[2025-05-15 11:45:44,238] - [INFO] - Processing article 4/189
+Extracted metadata for article: How Walmart handles Trump's tariffs could offer clues on retail health
+[2025-05-15 11:47:38,929] - [INFO] - Extracted metadata for article: How Walmart handles Trump's tariffs could offer clues on retail health
+Fetching content from: https://www.reuters.com/business/retail-consumer/how-walmart-handles-trumps-tariffs-could-offer-clues-retail-health-2025-05-14/
+[2025-05-15 11:47:38,931] - [INFO] - Fetching content from: https://www.reuters.com/business/retail-consumer/how-walmart-handles-trumps-tariffs-could-offer-clues-retail-health-2025-05-14/
+Failed to scrape article content: How Walmart handles Trump's tariffs could offer clues on retail health
+[2025-05-15 11:47:39,168] - [WARNING] - Failed to scrape article content: How Walmart handles Trump's tariffs could offer clues on retail health
+Processing article 5/189
+[2025-05-15 11:47:39,168] - [INFO] - Processing article 5/189
+Extracted metadata for article: Walmart Is Retail’s Bellwether for Tariffs. What Earnings Will Show.
+[2025-05-15 11:48:24,470] - [INFO] - Extracted metadata for article: Walmart Is Retail’s Bellwether for Tariffs. What Earnings Will Show.
+Fetching content from: https://www.barrons.com/articles/walmart-earnings-stock-price-a0c89352
+[2025-05-15 11:48:24,470] - [INFO] - Fetching content from: https://www.barrons.com/articles/walmart-earnings-stock-price-a0c89352
+Failed to scrape article content: Walmart Is Retail’s Bellwether for Tariffs. What Earnings Will Show.
+[2025-05-15 11:48:24,729] - [WARNING] - Failed to scrape article content: Walmart Is Retail’s Bellwether for Tariffs. What Earnings Will Show.
+Scrape completed in 354.91 seconds
+[2025-05-15 11:48:27,174] - [INFO] - Scrape completed in 354.91 seconds
+Found 3 articles about 'business':
+[2025-05-15 11:48:27,175] - [INFO] - Found 3 articles about 'business':
+Saved Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap news article
+[2025-05-15 11:51:02,402] - [INFO] - Saved Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap news article
+Saved Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments news article
+[2025-05-15 11:51:06,944] - [INFO] - Saved Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments news article
+Saved Asia stocks mixed,tracking drop in US futures after mixed Wall St sess news article
+[2025-05-15 11:51:08,017] - [INFO] - Saved Asia stocks mixed,tracking drop in US futures after mixed Wall St sess news article
+==================================================
+[2025-05-15 11:51:08,018] - [INFO] - ==================================================
+Google News Scraper Finished
+[2025-05-15 11:51:08,018] - [INFO] - Google News Scraper Finished
+==================================================
+[2025-05-15 11:51:08,018] - [INFO] - ==================================================
+Connected to MongoDB successfully: 1.0
+[2025-05-15 11:51:18,269] - [INFO] - Connected to MongoDB successfully: 1.0
+==================================================
+[2025-05-15 11:51:18,269] - [INFO] - ==================================================
+Starting Google News Scraper
+[2025-05-15 11:51:18,270] - [INFO] - Starting Google News Scraper
+==================================================
+[2025-05-15 11:51:18,270] - [INFO] - ==================================================
+Running example search for topic: 'business'
+[2025-05-15 11:51:18,271] - [INFO] - Running example search for topic: 'business'
+Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+[2025-05-15 11:51:20,492] - [INFO] - Navigating to URL: https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en
+Found 186 article elements
+[2025-05-15 11:51:25,232] - [INFO] - Found 186 article elements
+Processing article 1/186
+[2025-05-15 11:51:25,233] - [INFO] - Processing article 1/186
+Extracted metadata for article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+[2025-05-15 11:52:17,629] - [INFO] - Extracted metadata for article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+Fetching content from: https://www.bloomberg.com/news/articles/2025-05-14/stock-market-today-dow-s-p-live-updates
+[2025-05-15 11:52:17,631] - [INFO] - Fetching content from: https://www.bloomberg.com/news/articles/2025-05-14/stock-market-today-dow-s-p-live-updates
+Successfully added article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+[2025-05-15 11:52:18,829] - [INFO] - Successfully added article: Asian Stocks Fall as Trade-Truce Rally Loses Steam: Markets Wrap
+Processing article 2/186
+[2025-05-15 11:52:18,830] - [INFO] - Processing article 2/186
+Extracted metadata for article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+[2025-05-15 11:52:31,952] - [INFO] - Extracted metadata for article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+Fetching content from: https://www.cnbc.com/2025/05/15/asia-pacific-live-us-china-trade.html
+[2025-05-15 11:52:31,952] - [INFO] - Fetching content from: https://www.cnbc.com/2025/05/15/asia-pacific-live-us-china-trade.html
+Successfully added article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+[2025-05-15 11:52:33,790] - [INFO] - Successfully added article: Asia-Pacific markets mostly fall as investors assess U.S.-China trade developments
+Processing article 3/186
+[2025-05-15 11:52:33,790] - [INFO] - Processing article 3/186
+Extracted metadata for article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+[2025-05-15 11:53:04,451] - [INFO] - Extracted metadata for article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+Fetching content from: https://seekingalpha.com/news/4448502-asia-stocks-mixed-tracking-drop-in-us-futures-after-mixed-wall-street-session-and-trade-policy-uncertainty
+[2025-05-15 11:53:04,451] - [INFO] - Fetching content from: https://seekingalpha.com/news/4448502-asia-stocks-mixed-tracking-drop-in-us-futures-after-mixed-wall-street-session-and-trade-policy-uncertainty
+Successfully added article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+[2025-05-15 11:53:07,368] - [INFO] - Successfully added article: Asia stocks mixed,tracking drop in US futures after mixed Wall St sess
+Processing article 4/186
+[2025-05-15 11:53:07,369] - [INFO] - Processing article 4/186
