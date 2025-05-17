@@ -30,7 +30,7 @@ load_dotenv()
 connect_db()
 
 PORT = int(os.getenv("PORT") or 8000)
-frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
+frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:4080")
 
 
 # Run the scheduler in a background thread
@@ -71,4 +71,3 @@ app.include_router(
     router=sentiments_router, prefix="/api/v1/sentiments", tags=["Sentiments"]
 )
 app.include_router(router=search_router, prefix="/api/v1/search", tags=["Search"])
-

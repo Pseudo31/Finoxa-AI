@@ -38,128 +38,49 @@ async def get_tickers(
     page: int = Query(1, ge=1, description="Page number"),
     limit: int = Query(10, ge=1, description="Items per page"),
     sort_by: Optional[str] = Query(None, description="Field to sort by"),
-    order: Optional[str] = Query(None, description="Sort order (asc or desc)"),
+    order: Optional[str] = Query("asc", description="Sort order (`asc` or `desc`)"),
 ):
-    # Initialize variables
-    total_count = 0
     tickers = []
 
-    # Create base pipeline
-    pipeline = []
-
-    # Add sorting if specified
-    if sort_by:
-        sort_direction = -1 if order and order.lower() == "desc" else 1
-        pipeline.append({"$sort": {sort_by: sort_direction}})
-
-    # Create count pipeline for pagination
-    count_pipeline = pipeline.copy()
-    count_pipeline.append({"$count": "total_count"})
-
-    # Add pagination to main pipeline
-    skip_pipeline = pipeline.copy()
-    skip_pipeline.append({"$skip": (page - 1) * limit})
-    skip_pipeline.append({"$limit": limit})
-
-    # Execute queries based on market type
+    # Fetch all data based on market filter
     if market == "stocks":
-        # Get count
-        count_result = list(Stock.objects.aggregate(count_pipeline))
-        total_count = count_result[0]["total_count"] if count_result else 0
-
-        # Get paginated data
-        stocks_cursor = Stock.objects.aggregate(skip_pipeline)
-        stock_list = list(stocks_cursor)
-        tickers.extend(stock_list)
-
+        tickers = list(Stock.objects.all())
     elif market == "indices":
-        # Get count
-        count_result = list(Index.objects.aggregate(count_pipeline))
-        total_count = count_result[0]["total_count"] if count_result else 0
-
-        # Get paginated data
-        indices_cursor = Index.objects.aggregate(skip_pipeline)
-        indices_list = list(indices_cursor)
-        tickers.extend(indices_list)
-
+        tickers = list(Index.objects.all())
     else:
-        # Get stocks count
-        count_stocks_result = list(Stock.objects.aggregate(count_pipeline))
-        stocks_count = (
-            count_stocks_result[0]["total_count"] if count_stocks_result else 0
+        tickers = list(Stock.objects.all()) + list(Index.objects.all())
+
+    total_count = len(tickers)
+
+    # Sort in memory
+    if sort_by:
+        reverse = order.lower() == "desc"
+        tickers = sorted(
+            tickers,
+            key=lambda x: x.to_mongo().to_dict().get(sort_by, 0),
+            reverse=reverse,
         )
 
-        # Get indices count
-        count_indices_result = list(Index.objects.aggregate(count_pipeline))
-        indices_count = (
-            count_indices_result[0]["total_count"] if count_indices_result else 0
-        )
+    # Paginate in memory
+    start = (page - 1) * limit
+    end = start + limit
+    paginated_tickers = tickers[start:end]
 
-        total_count = stocks_count + indices_count
-
-        # Get paginated data - need to handle differently when combining collections
-        if total_count > 0:
-            # Calculate how many items to take from each collection
-            if stocks_count == 0:
-                indices_limit = limit
-                stocks_limit = 0
-            elif indices_count == 0:
-                stocks_limit = limit
-                indices_limit = 0
-            else:
-                # Proportionally split the limit between stocks and indices
-                stocks_ratio = stocks_count / total_count
-                stocks_limit = min(int(limit * stocks_ratio), stocks_count)
-                indices_limit = min(limit - stocks_limit, indices_count)
-
-            # Adjust skip values based on pagination
-            skip_stocks = 0
-            skip_indices = 0
-
-            if page > 1:
-                # Calculate which collection to skip items from
-                items_before = (page - 1) * limit
-
-                if items_before <= stocks_count:
-                    skip_stocks = items_before
-                else:
-                    skip_stocks = stocks_count
-                    skip_indices = items_before - stocks_count
-
-            # Get stocks
-            if stocks_limit > 0:
-                stocks_pipeline = pipeline.copy()
-                stocks_pipeline.append({"$skip": skip_stocks})
-                stocks_pipeline.append({"$limit": stocks_limit})
-                stocks_cursor = Stock.objects.aggregate(stocks_pipeline)
-                tickers.extend(list(stocks_cursor))
-
-            # Get indices
-            if indices_limit > 0:
-                indices_pipeline = pipeline.copy()
-                indices_pipeline.append({"$skip": skip_indices})
-                indices_pipeline.append({"$limit": indices_limit})
-                indices_cursor = Index.objects.aggregate(indices_pipeline)
-                tickers.extend(list(indices_cursor))
-
-    # Calculate pagination metadata
+    # Handle out-of-range pages
     total_pages = (total_count + limit - 1) // limit if total_count > 0 else 0
-
     if page > total_pages and total_pages > 0:
         response.status_code = status.HTTP_400_BAD_REQUEST
-        return {
-            "status": "error",
-            "message": "Page number exceeds total pages",
-        }
+        return {"status": "error", "message": "Page number exceeds total pages"}
 
-    # Process results
+    # Clean and transform
     processed_tickers = []
-    for stock in tickers:
-        stock["_id"] = str(stock["_id"])
-        processed_stock = rename_keys(stock, key_map)
-        processed_stock.pop("created_at", None)
-        processed_stock.pop("updated_at", None)
-        processed_tickers.append(processed_stock)
+    for doc in paginated_tickers:
+        doc = doc.to_mongo().to_dict()
+        doc["_id"] = str(doc["_id"])
+        processed_doc = rename_keys(doc, key_map)
+        processed_doc.pop("created_at", None)
+        processed_doc.pop("updated_at", None)
+        processed_tickers.append(processed_doc)
 
     return {
         "status": "success",
