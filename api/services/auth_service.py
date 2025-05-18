@@ -38,10 +38,9 @@ def set_jwt_cookie(token: str, response: Response):
         key="token",
         value=token,
         httponly=False,
-        samesite="strict",
         secure=os.getenv("ENV") == "production",
-        max_age=60 * int(os.getenv("JWT_EXPIRATION_TIME")),
-        expires=60 * int(os.getenv("JWT_EXPIRATION_TIME")),
+        samesite="strict",
+        max_age=timedelta(minutes=int(os.getenv("JWT_EXPIRATION_TIME"))),
     )
 
 

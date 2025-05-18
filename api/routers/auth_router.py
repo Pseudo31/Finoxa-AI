@@ -1,4 +1,4 @@
-from typing import Annotated, Any
+from typing import Annotated
 
 # pip modules
 from fastapi import APIRouter, Response, Depends, status
@@ -19,7 +19,10 @@ router = APIRouter()
 
 
 @router.post("/signup")
-async def signup_route(user_data: SigninUserSchema, response: Response):
+async def signup_route(
+    user_data: SigninUserSchema,
+    response: Response,
+):
     # Check if user already exists
     if User.objects(email=user_data.email).first():
         response.status_code = status.HTTP_400_BAD_REQUEST
@@ -53,7 +56,10 @@ async def signup_route(user_data: SigninUserSchema, response: Response):
 
 
 @router.post("/login")
-async def login_route(user_data: LoginUserSchema, response: Response):
+async def login_route(
+    user_data: LoginUserSchema,
+    response: Response,
+):
     # Check if user exists and verify password
     user = User.objects(email=user_data.email).first()
     if not user or not verify_password(user_data.password, user.password):
@@ -80,7 +86,9 @@ async def login_route(user_data: LoginUserSchema, response: Response):
 
 
 @router.get("/logout")
-async def logout_route(response: Response):
+async def logout_route(
+    response: Response,
+):
     # Clear the token from the cookies
     response.delete_cookie(key="token")
 

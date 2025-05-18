@@ -30,12 +30,11 @@ load_dotenv()
 connect_db()
 
 PORT = int(os.getenv("PORT") or 8000)
-frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:4080")
 
 
 # Run the scheduler in a background thread
 def run_scheduler():
-    schedule.every(30).minutes.do(scrape_news)
+    schedule.every(15).minutes.do(scrape_news)
     while True:
         schedule.run_pending()
         time.sleep(1)
@@ -54,10 +53,15 @@ app = FastAPI(lifespan=lifespan)
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_origin],
+    allow_origins=[
+        os.getenv("FRONTEND_ORIGIN"),
+        "http://localhost:3500",
+        "http://192.168.1.17:3500",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_origin_regex=".*",
 )
 
 # Routers

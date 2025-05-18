@@ -16,8 +16,6 @@ const useUserStore = create((set, get) => ({
                     "Content-Type": "application/json",
                     Authorization: `Bearer ${token}`,
                 },
-                credentials: "include",
-                redirect: "follow",
             });
 
             const data = await response.json();
@@ -48,8 +46,6 @@ const useUserStore = create((set, get) => ({
                 headers: {
                     "Content-Type": "application/json",
                     Authorization: `Bearer ${token}`,
-                    credentials: "include",
-                    redirect: "follow",
                 },
             });
 
@@ -76,8 +72,6 @@ const useUserStore = create((set, get) => ({
                 headers: {
                     "Content-Type": "application/json",
                     Authorization: `Bearer ${token}`,
-                    credentials: "include",
-                    redirect: "follow",
                 },
             });
 

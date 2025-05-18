@@ -22,8 +22,8 @@ const useAuthStore = create((set) => ({
                     email,
                     password,
                 }),
-                credentials: "include",
                 redirect: "follow",
+                credentials: "include",
             });
 
             const data = await response.json();
@@ -59,9 +59,10 @@ const useAuthStore = create((set) => ({
                     email,
                     password,
                 }),
-                credentials: "include",
                 redirect: "follow",
+                credentials: "include",
             });
+
             const data = await response.json();
             if (!response.ok) {
                 set({ ...data, isLoading: false });
@@ -85,9 +86,10 @@ const useAuthStore = create((set) => ({
         try {
             const response = await fetch(`${API_URL}/auth/logout`, {
                 method: "GET",
-                credentials: "include",
                 redirect: "follow",
+                credentials: "include",
             });
+
             const data = await response.json();
             if (!response.ok) {
                 throw new Error(data.message);
@@ -109,11 +111,11 @@ const useAuthStore = create((set) => ({
         try {
             const response = await fetch(`${API_URL}/auth/check-auth`, {
                 method: "GET",
-                credentials: "include",
-                redirect: "follow",
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
+                redirect: "follow",
+                credentials: "include",
             });
 
             const data = await response.json();
