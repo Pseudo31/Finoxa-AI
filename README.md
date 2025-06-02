@@ -23,23 +23,23 @@ News Source ➜ Sentence Split ➜ TextRank ➜ Ticker Extraction ➜ FinBERT Se
 
 ## 🔍 Example Use Case
 
-> **Input Article:** “NVIDIA posts record-breaking earnings; AI chip sales drive 24% increase in revenue.”  
-> **Output:**
-> - Company: $NVDA  
-> - Sentiment: Positive  
-> - Movement: Likely upward  
-> - Confidence: 91%
+ **Input Article:** “NVIDIA posts record-breaking earnings; AI chip sales drive 24% increase in revenue.”  
+ **Output:**
+ - Company: $NVDA  
+ - Sentiment: Positive  
+ - Movement: Likely upward  
+ - Confidence: 91%
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python
-- BeautifulSoup, Requests (Scraping)
+- BeautifulSoup, Requests, Selenium (Scraping)
 - spaCy, NLTK (Text Processing)
 - HuggingFace Transformers (FinBERT)
 - Pandas, NumPy
-- Regex, YAML for ticker resolution
+- NER for ticker resolution
 
 ---
 
