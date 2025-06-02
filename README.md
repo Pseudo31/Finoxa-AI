@@ -42,11 +42,3 @@ News Source ➜ Sentence Split ➜ TextRank ➜ Ticker Extraction ➜ FinBERT Se
 - NER for ticker resolution
 
 ---
-
-## ⚙️ Getting Started
-
-```bash
-git clone https://github.com/yourusername/market-mind-ai.git
-cd market-mind-ai
-pip install -r requirements.txt
-python main.py
